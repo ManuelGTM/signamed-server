@@ -1,0 +1,10 @@
+access_Service/data/video
+access_Service/data/video_colab
+**/__pycache__/
+
+#compute_Service/preprocessing/src/__pycache__/
+**/logs/
+compute_Service/msg3d/eval
+compute_Service/msg3d/test
+compute_Service/msg3d/test_movil
+compute_Service/msg3d/pretrained-models

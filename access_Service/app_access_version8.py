@@ -10,7 +10,7 @@ import datetime
 import random
 from werkzeug.utils import secure_filename
 from flask import Flask, jsonify, request, send_file, send_from_directory
-from google.cloud import storage
+# from google.cloud import storage
 import numpy as np
 import os
 sys.path.insert(0, '../compute_Service')

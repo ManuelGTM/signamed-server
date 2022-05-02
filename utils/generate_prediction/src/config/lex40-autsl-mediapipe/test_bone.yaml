@@ -1,0 +1,12 @@
+# model
+model: model.msg3d.Model
+model_args:
+  num_class: 40
+  num_point: 53
+  num_person: 1
+  num_gcn_scales: 8
+  num_g3d_scales: 8
+  graph: graph.mediapipe_bones.AdjMatrixGraph
+
+device: 3
+weights: /home/gts/projects/mvazquez/medSign/compute_Service/msg3d/pretrained-models/mediapipe/pretrained_lex40/bones_weights-24-408.pt #model mediapipe

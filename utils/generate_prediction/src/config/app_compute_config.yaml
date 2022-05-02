@@ -1,0 +1,13 @@
+# COMPUTATION SERVER
+IP_SERVER_COMPUTE: '172.19.56.82:56080'
+
+# GLOOGLE CLOUD STORAGE.
+MSG3D_CONFIG_FILE: [
+  ['data_joints', 'config/signamed/test_joint.yaml'],
+  ['data_bones', 'config/signamed/test_bone.yaml'],
+#  ['data_joint_motion', 'config/signamed/test_joint.yaml'],
+#  ['data_bone_motion', 'config/signamed/test_joint.yaml']
+  ]
+CHANNELS: 3
+FRAMES: 120
+NUM_KPS: 53

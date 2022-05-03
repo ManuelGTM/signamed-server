@@ -8,5 +8,5 @@ model_args:
   num_g3d_scales: 8
   graph: graph.mediapipe_joints.AdjMatrixGraph
 
-device: 3
+device: 0
 weights: config/signamed/version_21_08_2021/signamed_retrain_autsl_joint_mediapipe-C3-xyz-train2.pt

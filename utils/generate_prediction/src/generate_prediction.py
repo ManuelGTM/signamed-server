@@ -10,7 +10,7 @@ from preprocessing.src.gen_features import MediapipeOptions
 from preprocessing.src.gen_features import GenFeaturesMediapipeC4 as Features
 from preprocessing.src.gen_keypoints import GenKeypointsMediapipeC4 as Keypoints
 
-sys.path.insert(0, '/home/temporal2/mvazquez/ISLR_workspace/msg3d')
+sys.path.insert(0, '../../../compute_Service/msg3d')
 from msg3d_processor2 import MSG3D_Processor
 
 genFeatures = Features(MediapipeOptions.XYZ)

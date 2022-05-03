@@ -8,5 +8,5 @@ model_args:
   num_g3d_scales: 8
   graph: graph.mediapipe_bones.AdjMatrixGraph
 
-device: 3
+device: 0
 weights: config/signamed/version_15_08_2021/signamed_retrain_autsl_bone_motion_mediapipe-C3-xyc-train2.pt

@@ -1,7 +1,23 @@
 # signaMed-server
 
-Comandos despligue Signamed en los servidores:
+# Preparación del entorno
+```bash
+conda create -n py38 python=3.8
+conda activate py38
 
+pip install numpy
+pip install pyyaml==5.4.1
+pip install yacs
+pip install torch==1.4.0 torchvision==0.5.0
+pip install opencv-python
+pip install mediapipe
+pip install torchsummary
+
+git clone  https://github.com/ManuelGTM/signamed-server.git
+```
+
+
+Comandos despliegue de Signamed en los servidores:
 #### SERVIDOR DE ACCESO : PEREIRO
 ```bash
 PATH_ACCESS_SERVICE_FOLDER='/home/gts/projects/mvazquez/signamed-server/access_Service'
